@@ -1,0 +1,67 @@
+
+.main-header{
+    background-color:#7C007C;
+    border-radius: 20px;
+    margin-left: 200px;
+     width: 62.5vw;
+    margin: 0 auto;
+    
+} 
+.sarlavha{
+    background-color: rgb(189, 74, 255);
+    padding: 8px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+
+}
+.main-form{
+    display: grid;
+}
+.main-form input{
+padding: 15px;
+border-radius: 20px;
+width: 80%;
+margin:auto;
+border: none;
+}
+.main-form input:focus{
+    outline: none;
+}
+.yozuv{
+    position: relative;
+    left:7%;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+ #button{
+    margin:15px auto;
+    width: 200px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #6071bb;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+ }
+ @media(max-width:1000px){
+    .main-form label{
+        left:8%; 
+    }
+    .main-header{
+        width: 100%;
+        height: 100%;
+    }
+}
+ @media(max-width:500px){
+.main-form label{
+    left: 6%;
+}
+.main-header{
+    width: 100%;
+    height: 100%;
+
+}
+ }
