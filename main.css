@@ -1,67 +1,84 @@
-
+.container{
+width: 71.25rem;
+margin:0 auto;
+}
 .main-header{
-    background-color:#7C007C;
-    border-radius: 20px;
-    margin-left: 200px;
-     width: 62.5vw;
-    margin: 0 auto;
-    
-} 
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: stretch;
+    flex-direction: column;   
+    background-color: blueviolet;
+    border-radius: 25px;
+    margin-top: 3.125rem;
+}
 .sarlavha{
-    background-color: rgb(189, 74, 255);
-    padding: 8px;
-    border-radius: 15px;
-    text-align: center;
-    font-size: 15px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius:25px 25px 0 0;
+    width: 100%;
+    background: rgb(179, 54, 252);
+}
+.sarlavha h3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: stretch; 
+    color: white;
 
 }
-.main-form{
-    display: grid;
+
+
+.forms form input{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: center;
+    width: 25rem;
+    height: 1.875rem;
+    border: none;
+    border-radius: 7px;
+    font-size: 1.25rem;
 }
-.main-form input{
-padding: 15px;
-border-radius: 20px;
-width: 80%;
-margin:auto;
-border: none;
-}
-.main-form input:focus{
+.forms form input:focus{
     outline: none;
 }
-.yozuv{
-    position: relative;
-    left:7%;
-    font-size: 25px;
+.forms form label{
+    display: flex;
     color: white;
-    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.125rem;
+    text-transform: uppercase
 }
- #button{
-    margin:15px auto;
-    width: 200px;
-    padding: 15px;
-    border-radius: 15px;
+.forms form button{
+    margin-top: 1.25rem;
+    width: 25rem;
     border: none;
-    background-color: #6071bb;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    font-weight: 400;
- }
- @media(max-width:1000px){
-    .main-form label{
-        left:8%; 
-    }
-    .main-header{
-        width: 100%;
-        height: 100%;
-    }
+    border-radius: 7px;
+    height:2.5rem;
+    background-color: rgb(211, 16, 236);
+    color: white;
+    cursor: pointer;
+    font-size: 1.56rem;
+    text-transform: uppercase;
 }
- @media(max-width:500px){
-.main-form label{
-    left: 6%;
-}
-.main-header{
-    width: 100%;
-    height: 100%;
 
+@media(max-width:500px){
+    .container{
+        width: 35.625rem;
+    }
+    .main__header{
+        width: 100%;       
+        border-radius:0px
+        ;
+
+    }
+    .forms form input{
+        width: 12.5rem;
+    }
+    .forms form button{
+        width: 12.5rem;
+    }
 }
- }
