@@ -1,1 +1,0 @@
-# Ro-yhatdan-o-tish

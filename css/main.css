@@ -1,0 +1,41 @@
+body{
+    background-color: #0f1522;
+}
+a{
+    text-decoration: none;
+}
+.card{
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius:30px;
+    border: none;
+}
+.card-header{
+    background-color: #142344;
+    border-radius:20px 20px 0 0 !important;
+    border: none;
+}
+.form-control{
+    border-radius: 10px;
+}
+.btn{
+    padding: 0.5rem 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+input{
+}
+.text{
+    color: white;
+}
+.seles{
+    padding: 10px 10px;
+}
+label{
+    font-weight: 400;
+}
+.icon{
+    margin-right: 5px;
+}
