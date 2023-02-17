@@ -39,3 +39,10 @@ label{
 .icon{
     margin-right: 5px;
 }
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex>a{
+    font-size: 19px;
+}
